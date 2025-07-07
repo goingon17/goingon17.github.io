@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hi, I'm Minqi Geng (耿敏祺)!"
+title: "👋 Hi, this is Minqi Geng (耿敏祺)!"
 author_profile: true
 redirect_from: 
   - /about/
