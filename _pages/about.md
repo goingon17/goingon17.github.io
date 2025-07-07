@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "👋 Hello, here is Minqi Geng (耿敏祺)"
+title: "👋 Hi, I'm Minqi Geng (耿敏祺)!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+![My Bisnis Card](/images/bisniscard.jpg){: .align-right width="300px"}
 
 
 🧑‍💻 I'm a first-year master's student at the [State Key Laboratory of Information Security (SKLOIS)](http://sklois.cn) under the [Institute of Information Engineering, Chinese Academy of Sciences](https://iie.cas.cn). Previously, I earned a B.E. from the School of Cyber Science and Technology, Shandong University.
@@ -24,9 +26,8 @@ redirect_from:
 Still laying the foundation: reading papers, learning codebases, writing bugs with confidence.🐞💥
 
 
-![My Bisnis Card](/images/bisniscard.jpg){: .align-right width="300px"}
 
-📬 _This site is a place to share my growth in privacy-enhancing technologies and applied cryptography. Feel free to connect or collaborate. *(I'm actively looking for opportunities in privacy computing and applied crypto projects.)*_
+📬 _This site is a place to share my growth in privacy-enhancing technologies and applied cryptography. Feel free to connect or collaborate. (I'm actively looking for opportunities in privacy computing and applied crypto projects.)_
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
