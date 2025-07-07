@@ -12,10 +12,10 @@ redirect_from:
 
 🧑‍💻 I'm a first-year master's student at the [State Key Laboratory of Information Security (SKLOIS)](http://sklois.cn) under the [Institute of Information Engineering, Chinese Academy of Sciences](https://iie.cas.cn). Previously, I earned a B.E. from the School of Cyber Science and Technology, Shandong University.
 
-🔐 My research interests are in both **theoretical** and **applied cryptography**, and I'm currently developing toward a more **engineering-oriented** direction.
+💻 My research interests are in both **theoretical** and **applied cryptography**, and I'm currently developing toward a more **engineering-oriented** direction.
 
 
-💻 I'm exploring ZKP systems, experimenting with FHE librarie, and learning MPC frameworks, while reading about real-world applications of privacy-enhancing technologies.
+🔐 I'm exploring ZKP systems, experimenting with FHE librarie, and learning MPC frameworks, while reading about real-world applications of privacy-enhancing technologies.
 
 
 
