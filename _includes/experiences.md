@@ -1,9 +1,13 @@
-## Research Interests
-- **Post-Quantum Cryptography (PQC):** Exploring lattice-based schemes and their practical implementations.
-- **Privacy-Preserving Technologies:** Focused on Zero-Knowledge Proofs and Multi-Party Computation.
+## Background
 
-## Ongoing Projects
-- **System Cryptography:** Developing secure primitives for distributed systems.
-- **Privacy Infrastructure:** Designing privacy-first architectures for data exchange.
+In 2021, I stepped out of a quiet county in Henan, knowing little of the wider world. I began my university life majoring in Mechanical Engineering, believing it to be my true passion. However, ***the world proved far more mesmerizing than I had ever imagined.*** My curiosity pivoted toward a field that then felt like science fiction. And so, my journey into cryptography and computer science began.
 
-> *Publications will be updated once terminal records are finalized.*
+Cryptography did not disappoint. The elegance of its underlying mathematics, and the concepts such as ZKP and MPC, felt not just intriguing, but profoundly romantic.
+
+As I delved deeper into this discipline of fortifying security boundaries, two new forces converged in my life: Cryptocurrency and Artificial Intelligence...
+
+---
+
+## Ongoing...
+
+
