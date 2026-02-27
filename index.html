@@ -1,10 +1,12 @@
+---
+---
 <!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minqi Geng | Cryptography</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Inter:wght@400;800&display=swap');
 
@@ -110,6 +112,26 @@
             50% { opacity: 0.3; }
             100% { opacity: 1; }
         }
+
+        /* Prose Overrides */
+        .prose h2, .prose h3 {
+            color: var(--neon-blue) !important;
+            font-family: 'Fira Code', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-top: 1.5em !important;
+            margin-bottom: 0.5em !important;
+        }
+        .prose ul {
+            list-style-type: square;
+            color: rgba(0, 243, 255, 0.5);
+        }
+        .prose li {
+            color: #ccc;
+        }
+        .prose strong {
+            color: #fff;
+        }
     </style>
 </head>
 <body class="min-h-screen flex items-center justify-center p-6">
@@ -124,7 +146,7 @@
                 <div class="shrink-0">
                     <div class="relative w-40 h-40 md:w-56 md:h-56">
                         <div class="absolute inset-0 border-2 border-dashed border-cyan-500/50 rounded-lg animate-[spin_10s_linear_infinite]"></div>
-                        <img src="/images/112929233.jpeg" alt="Minqi Geng" class="w-full h-full object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-500 border border-cyan-500/30">
+                        <img src="/images/miki.jpg" alt="Minqi Geng" class="w-full h-full object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-500 border border-cyan-500/30">
                         <div class="absolute -bottom-4 -right-4 bg-cyan-500 text-black px-3 py-1 text-xs font-bold mono uppercase tracking-widest">
                             Authorized
                         </div>
@@ -173,17 +195,34 @@
 
                     <!-- Actions -->
                     <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="/assets/cv.pdf" target="_blank" class="nav-btn px-8 py-3 mono text-sm flex items-center gap-2 border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:shadow-[0_0_20px_#10b981]">
+                            <span>CV_DOWNLOAD</span>
+                        </a>
+                        <a href="#experiences" class="nav-btn px-8 py-3 mono text-sm flex items-center gap-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:shadow-[0_0_20px_#f59e0b]">
+                            <span>PAPERS_EXP</span>
+                        </a>
                         <a href="https://github.com/goingon17" target="_blank" class="nav-btn px-8 py-3 mono text-sm flex items-center gap-2">
                             <span>GITHUB_EXE</span>
                         </a>
-                        <a href="https://twitter.com/goingon0x11" target="_blank" class="nav-btn px-8 py-3 mono text-sm flex items-center gap-2 border-purple-500 text-purple-500 hover:bg-purple-500 hover:shadow-[0_0_20px_#bc13fe]">
-                            <span>TWITTER_LOG</span>
+                        <a href="https://x.com/mikiworkshard" target="_blank" class="nav-btn px-8 py-3 mono text-sm flex items-center gap-2 border-purple-500 text-purple-500 hover:bg-purple-500 hover:shadow-[0_0_20px_#bc13fe]">
+                            <span>X_LOG</span>
                         </a>
                         <a href="mailto:minqigeng@gmail.com" class="px-8 py-3 mono text-sm text-gray-500 hover:text-white transition-colors">
                             _contact_mail
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div id="experiences" class="cyber-border mt-12 p-8 md:p-16">
+            <div class="flex items-center gap-2 mb-8">
+                <span class="status-dot"></span>
+                <span class="mono text-xs uppercase tracking-[0.3em] text-cyan-500/70">Terminal Records</span>
+            </div>
+            <div class="prose prose-invert prose-cyan max-w-none mono text-gray-300">
+                {% capture exp %}{% include experiences.md %}{% endcapture %}
+                {{ exp | markdownify }}
             </div>
         </div>
 
